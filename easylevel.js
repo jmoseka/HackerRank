@@ -1,12 +1,4 @@
-const multiple = [];
-for (let i = 0; i <= 100; i++) {
-  if (i % 5 === 0) {
-    multiple.push(i);
-  }
-}
-const grades = [73, 67, 38, 33];
 
-//console.log(multiple);
 function gradingStudents(grades) {
   let check;
   let number;
@@ -36,7 +28,7 @@ function gradingStudents(grades) {
 gradingStudents(grades);
 console.log(result);
 
-////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
 
 let times = 0;
 let output = 0;
@@ -66,7 +58,6 @@ ar.forEach((element, i, array) => {
     }
   }
 
-  //console.log("===================");
 });
 console.log(output);
 
